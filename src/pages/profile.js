@@ -26,7 +26,7 @@ export default function Profile({ users }) {
 
       const config = {
         method: "put",
-        url: `http://localhost:3000/accounts/${user.id}`,
+        url: `https://86c2ca7dd42b.ngrok.io/accounts/${user.id}`,
         headers: {
           "Content-Type": "application/json",
         },
